@@ -1,5 +1,9 @@
-# PythonND---Meme-Generator
+
+
+## Python-Meme-Generator
+
 Meme Generator from the Udacity Python Nanodegree
+
 ## Overview:
 
 
@@ -30,7 +34,7 @@ For running the web application start app.py and open the given web address with
 - Flask
 - requests
 
-**Fonts:**  The meme engine uses Georgia.ttf, a font which should be available as standard on Window, MacOS and Linux system. If not, change the font in the file MemeEngine.py.
+**Fonts:**  The meme engine uses a free ttf font, which is located in the _font directory. So there should be no problems when using the script on different operating system. Feel free to change the font type, size and color in MemeEngine.py file.
 
 ## Submodules
 
