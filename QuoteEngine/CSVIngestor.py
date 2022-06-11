@@ -12,7 +12,7 @@ class CSVIngestor(IngestorInterface):
 
 
     @classmethod
-    def parse(cls, path:str) -> list[QuoteModel]:
+    def parse(cls, path:str) -> List[QuoteModel]:
         """method that parses the csv file given in path
         into quotes represented by QuoteModels objects
 
