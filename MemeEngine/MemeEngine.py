@@ -54,10 +54,10 @@ class MemeEngine:
                 img = img.resize((width, new_height))
 
                 pos1 = random.randint(10, 20)
-                pos2 = random.randint(30, 60)
+                pos2 = random.randint(30, 200)
                 message = text + ',\n' +'said ' + author
                 try:
-                    font = ImageFont.truetype("Georgia.ttf", 25)
+                    font = ImageFont.truetype("./_font/B20Sans.ttf", 35)
                 except Exception as e:
                     print(f"Font not found on system, {e}")
                 draw = ImageDraw.Draw(img)
